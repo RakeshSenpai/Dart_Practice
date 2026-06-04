@@ -1,3 +1,4 @@
+/*
 void main(){
   // variables
   String name = "Rakesh";
@@ -17,4 +18,34 @@ var myName;
 print(myName);
   myName = 'Rakesh';
 print(myName);
+}
+
+*/
+
+void main(){
+  // Data types ---> 
+  // numbers, boolean, Strings, dynamic, Lists, maps
+
+  // Strings
+
+  String firstName = "Rakesh";
+  print("String : $firstName");
+
+  // Booleans
+  bool isTrue = false;
+  print("Boolean : $isTrue");
+
+  // double
+  double otherNum = 19.45;
+  print("Double : $otherNum");
+
+  // Integers
+  int myNum = 7;
+  print("Int : $myNum");
+
+  // Dynamic
+
+  dynamic iDontKnow = "rhynamo";
+  print("Dynamic: $iDontKnow");
+
 }
