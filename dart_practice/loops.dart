@@ -7,5 +7,16 @@ void main(){
 
   //For in loops
 
+  var names = ['Rhynamo', 'Rakesh', 'thekid'];
+
+  for(var name in names){
+      print(name);
+  };
+
   // while loops
+
+  while(num >= 1){
+    print(num);
+    num--;
+  };
 }
