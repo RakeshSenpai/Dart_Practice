@@ -8,8 +8,8 @@ void main(){
     //   }
     // }
 
-    var secretNumber = 25;
-    var guess = 25;
+    int secretNumber = 25;
+    int guess = 25;
 
     if(secretNumber > guess){
       print('Too Low');
