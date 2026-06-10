@@ -13,6 +13,14 @@ void main(){
   var d,e,f;
   d = 20;
   e = '0.2';
-  f = d + double.parse(e);
+  f = d * double.parse(e);
   print("$d * $e = $f");
+
+  // int to String
+
+  var x,y,z;
+  x = 40;
+  y = '8';
+  z = x.toString() + y;
+  print("$x * $y = $z");
 }
