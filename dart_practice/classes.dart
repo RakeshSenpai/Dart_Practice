@@ -10,17 +10,20 @@ class User{
   String? name, contact;
   int? age;
 
-  User(name, contact, age){
-    this.name = name;
-    this.contact = contact;
-    this.age = age;
-  }
+  // User(name, contact, age){
+  //   this.name = name;
+  //   this.contact = contact;
+  //   this.age = age;
+  // }
+
+//Shortcut Constructor in Dart
+  User(this.name, this.contact, this.age);
 
   void showDate(){
     print("Name = $name");
     print("Email = $contact");
     print("Age = $age");
 
-    print("There is person name's {$name}, and the person's age is {$age}, and his contact {$contact}");
+    print("There is person name's $name, and the person's age is $age, and his contact $contact");
   }
 }
