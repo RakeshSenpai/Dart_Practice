@@ -1,10 +1,10 @@
 void main(){
 
   User p1 = User("Rakesh", 'af@gmail.com', 22);
-  p1.showDate();
-  print(p1.name);
+  p1.showInfo();
+  // print(p1.name);
   User p2 = User('Raechel', "rachel@email.com", 16);
-  p2.showDate();
+  p2.showInfo();
 }
 
 class User{
@@ -20,8 +20,8 @@ class User{
 //Shortcut Constructor in Dart
   User(this.name, this.contact, this.age);
 
-  void showDate(){
-    print("Name = $name");
+  void showInfo(){
+    print(greeting());
     print("Email = $contact");
     print("Age = $age");
   if(age >= 18){
@@ -30,7 +30,11 @@ class User{
     print('Minor');
   }
 
-    print("There is person name's $name, and the person's age is $age, and his contact $contact");
+    // print("There is person name's $name, and the person's age is $age, and his contact $contact");
 
+  }
+
+  String greeting(){
+    return 'Hello,I am $name!';
   }
 }
