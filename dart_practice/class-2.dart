@@ -1,3 +1,5 @@
+
+// dart classes without initialize
 void main(){
 
   User p1 = User();

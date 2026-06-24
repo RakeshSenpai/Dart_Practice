@@ -36,5 +36,7 @@ class User{
 
   String greeting(){
     return 'Hello,I am $name!';
+  print(greeting);
   }
+
 }
