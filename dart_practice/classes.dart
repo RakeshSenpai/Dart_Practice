@@ -11,11 +11,11 @@ class User{
   String name, contact;
   int age;
 
-  User(name, contact, age){
-    this.name = name;
-    this.contact = contact;
-    this.age = age;
-  }
+  // User(name, contact, age){
+  //   this.name = name;
+  //   this.contact = contact;
+  //   this.age = age;
+  // }
 
 //Shortcut Constructor in Dart
   User(this.name, this.contact, this.age);
